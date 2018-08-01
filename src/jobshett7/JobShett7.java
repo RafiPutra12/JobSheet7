@@ -36,6 +36,12 @@ public class JobShett7 {
                 System.out.println("Isi variabel a :" + a);
                 System.out.println("Nilai a lebih dari 5");
         
+                System.out.println("/nIF..else..");
+                if (a < 5) {
+                    System.out.println("Isi variabel a :" + a);
+                    System.out.println("Nilai a kurang dari 5");
+                }else System.out.println("Nilai a kurang dari atau sama dengan 5");
+                
                 
     }
     
